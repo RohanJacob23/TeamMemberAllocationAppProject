@@ -13,7 +13,7 @@ function Emp(props) {
         teamName={employee.teamName}
         shadow={props.sh}
         clName={`border-4 text-center rounded-lg ${
-          employee.teamName == props.team ? "border-black" : ""
+          employee.teamName === props.team ? "border-black" : ""
         }`}
       />
     );

@@ -1,4 +1,3 @@
-import { useState } from "react";
 import CollapseComp from "./CollapseComp";
 
 function teamFilter(a, t) {
