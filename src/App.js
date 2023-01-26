@@ -6,7 +6,7 @@ import GroupedTeamMembers from "./components/GroupedTeamMembers";
 import WrongPath from "./components/WrongPath";
 import { empData } from "./components/data";
 import { useState, useEffect } from "react";
-import { BrowserRouter, Routes, Route, link } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   const [team, setTeam] = useState(

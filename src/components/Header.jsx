@@ -9,9 +9,9 @@ function Header() {
         </h1>
       </div>
       <div className="p-5 text-lg md:text-xl bg-slate-300 font-semibold">
-        <a className="mr-5">
+        <span className="mr-5">
           <Link to="/">Home</Link>
-        </a>
+        </span>
         <span>
           <Link to="/grpTM">Teams</Link>
         </span>

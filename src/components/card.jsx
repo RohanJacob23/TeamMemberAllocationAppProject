@@ -5,7 +5,7 @@ function CardStructure(props) {
       <div>
         <img
           src={require(`../images/${
-            props.gender == "female" ? "female" : "male"
+            props.gender === "female" ? "female" : "male"
           }Profile.jpg`)}
           alt=""
           className="w-full rounded-t-lg"
